@@ -72,9 +72,7 @@ option(USE_BRAINSDWICleanup               "Build BRAINSDWICleanup"              
 option(USE_BRAINSCreateLabelMapFromProbabilityMaps "Build BRAINSCreateLabelMapFromProbabilityMaps" OFF)
 option(USE_BRAINSMultiSTAPLE              "Build BRAINSMultiSTAPLE" ON)
 
-if( NOT USE_ANTS )
 option(USE_ANTS                           "Build ANTS"                           ON)
-endif()
 
 ## These are not yet ready for prime time.
 option(USE_BRAINSContinuousClass          "Build BRAINSContinuousClass "   OFF)
